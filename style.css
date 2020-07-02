@@ -1,11 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.bg-image {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.audio {
-    height: 100vh;
-    width: 100%;
-    border: none;
-    background-image: url(jazz.jpg);
-}
+.img1 { background-image: url("/imgs/jazz1.jpg"); }
+.img2 { background-image: url("/imgs/jazz2.jpg"); }
+.img3 { background-image: url("/imgs/jazz3.jpg"); }
+.img4 { background-image: url("/imgs/jazz6.jpg"); }
